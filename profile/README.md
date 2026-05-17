@@ -34,6 +34,9 @@ SEFOP has been presented at:
 - MIP Workshop 2025 (Chile)
 - Agentic Quality Summit 2026 (Atlanta, GA)
 
+### Connect with me
+- https://www.linkedin.com/in/francisco-zenteno-smith/
+
 ## Who is this for?
 
 SEFOP is designed for two audiences:
@@ -42,6 +45,7 @@ SEFOP is designed for two audiences:
 - **Industry**: operations research practitioners who already know some elements of software engineering and want a structured guide to level-up their code with production-software standards.
 
 The repositories in this organization are designed as a learning path. Start where you are.
+
 
 ## Learning Path
 
