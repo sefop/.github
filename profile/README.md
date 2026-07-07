@@ -33,6 +33,7 @@ SEFOP has been presented at:
 - Informs Annual Meeting 2025 (Atlanta, GA)
 - MIP Workshop 2025 (Chile)
 - Agentic Quality Summit 2026 (Atlanta, GA)
+- Informs Annual Meeting 2026 (San Francisco, CA) - to be presented
 
 ### Connect with me
 - https://www.linkedin.com/in/francisco-zenteno-smith/
