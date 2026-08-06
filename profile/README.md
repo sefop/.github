@@ -7,20 +7,26 @@
 
 ## What is SEFOP?
 
-SEFOP is a framework that brings software engineering techniques (architecture, design, testing, CI/CD) to optimization software (also known as decision-support software).
+SEFOP is a framework that brings software engineering techniques (architecture, design, testing, CI/CD) to optimization software (also known as decision-support 
+software) in the industry.
 
 ### The problem
-I built it out of a recurring frustration: decision-support software is rarely written with professional software standards. It may lack modularity, automated tests, deployment pipelines or all of them. Some consequences are:
+SEFOP was built out of a recurring frustration: decision-support software is rarely written with professional software standards. It may lack modularity, automated 
+tests, deployment pipelines or all of them. Some consequences are:
 - It may work on your machine, but it may not on another one. 
 - It is difficult to maintain and extend by your peers and even by yourself.
+- The return on investment of Operations Research teams varies significantly, and most of them are not maximizing their potential value.
 
 ### Root causes
-The lack of profesional software standards in decision-support software problem has 2 root causes ([Kanewala & Bieman, 2014](https://pubmed.ncbi.nlm.nih.gov/25125798/)): 
+The lack of professional software standards in decision-support software problem has 2 root causes ([Kanewala & Bieman, 2014](https://pubmed.ncbi.nlm.nih.gov/25125798/)): 
 1. Cultural: scientists are not trained in software engineering, and/or they think they should not learn it.
 2. Technical: designing and testing this type of software has some unique challenges that are different from 'non-scientific' software.
 
 ### What if I use an agent?
-AI-coding assistants are becoming very popular. In fact, as of 2025 > 70% of scientific programmers code with LLM-based tools according to [O'Brien & Eisty, 2026](https://www.computer.org/csdl/magazine/cs/2026/01/11482007/2fJHVugY5UY). Nonetheless, according to recent studies ([Google Cloud DORA 2025](https://dora.dev/research/2025/dora-report/)), we have learned that an AI-coding assistant "primarly role in software development is that of an amplifier". In other words, these tools amplify the strengths and weaknesses of your engineering practices. If you have strong engineering practices, you will capture the benefits of them. If you don't, you will "likely have a hard time".
+AI-coding assistants are becoming very popular. In fact, as of 2025 > 70% of scientific programmers code with LLM-based tools according to [O'Brien & Eisty, 2026](https://www.computer.org/csdl/magazine/cs/2026/01/11482007/2fJHVugY5UY).
+Nonetheless, according to recent studies ([Google Cloud DORA 2025](https://dora.dev/research/2025/dora-report/)), we have learned that an AI-coding assistant 
+"**primarly role in software development is that of an amplifier**". In other words, these tools amplify the strengths and weaknesses of your engineering practices. If 
+you have strong engineering practices, you will capture the benefits of them. If you don't, you will "**likely have a hard time**".
 
 ### Goals of SEFOP
 SEFOP addresses the previous problems with these 3 goals:
@@ -33,7 +39,9 @@ SEFOP has been presented at:
 - Informs Annual Meeting 2025 (Atlanta, GA)
 - MIP Workshop 2025 (Chile)
 - Agentic Quality Summit 2026 (Atlanta, GA)
-- Informs Annual Meeting 2026 (San Francisco, CA) - to be presented
+- Informs Annual Meeting 2026 (San Francisco, CA) - to present the latest version of the technical framework: *“SEFOP: a Software Engineering Framework for Optimization Programs"*.
+- 2026 DSI Annual Conference (San Francisco, CA) - to present a paper of change management: *"Why operations research practitioners resist software engineering 
+  practices and what changes their behavior"*.
 
 ### Connect with me
 - https://www.linkedin.com/in/francisco-zenteno-smith/
