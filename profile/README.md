@@ -58,7 +58,7 @@ SEFOP is designed for two audiences:
 The repositories in this organization are structured in 3 types:
 - Training: help you practice and/or learn software engineering techniques, tailored for scientists.
 - Templates: show you an implementation of SEFOP that you could mimick or use as a starting point.
-- Agentic: provide you a set of tools to incorporate agentic development in your project.
+- Agentic layer: provide you a set of tools to incorporate agentic development in your project.
 
 ### Training repositories
 
@@ -71,6 +71,9 @@ SEFOP has some reference implementations of the framework in different languages
 - SEFOP in python (advanced version): https://github.com/sefop/sefop-python-advanced
 - SEFOP in java (advanced version): https://github.com/sefop/sefop-python-advanced (under construction)
 
+### Agentic layer
+
+This repository will have guides and tools to leverage agentic development: https://github.com/sefop/sefop-agentic
 
 ## Join the Discussion
 
