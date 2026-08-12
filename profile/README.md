@@ -88,4 +88,4 @@ That is where the community lives. Contributions, new patterns, and new language
 MIT — see [LICENSE](LICENSE).
 
 ## Connect with me
-- https://www.linkedin.com/in/francisco-zenteno-smith/
+https://www.linkedin.com/in/francisco-zenteno-smith/
