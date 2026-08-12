@@ -30,61 +30,46 @@ you have strong engineering practices, you will capture the benefits of them. If
 
 ### Goals of SEFOP
 SEFOP addresses the previous problems with these 3 goals:
-1. Provide you training materials so you can learn software engineering specifically for decision-support software. 
-2. Provide you code templates to set the right technical foundations for your decision-support software.
-3. Prepare your decision-support software to benefit from agentic development.
+1. Provide you training materials so you can learn software engineering specifically for decision-support software.
+2. Provide you management strategies to efficiently deliver decision-support software.
+3. Provide you code templates to start with the right technical foundations for your decision-support software.
+4. Prepare your decision-support software to benefit from agentic development.
+5. Provide you agentic development tools to maximize the ROI of your team.
 
 ### Where has this been presented?
-SEFOP has been presented at:
-- Informs Annual Meeting 2025 (Atlanta, GA)
-- MIP Workshop 2025 (Chile)
-- Agentic Quality Summit 2026 (Atlanta, GA)
-- Informs Annual Meeting 2026 (San Francisco, CA) - to present the latest version of the technical framework: *“SEFOP: a Software Engineering Framework for Optimization Programs"*.
-- 2026 DSI Annual Conference (San Francisco, CA) - to present a paper of change management: *"Why operations research practitioners resist software engineering 
-  practices and what changes their behavior"*.
-
-### Connect with me
-- https://www.linkedin.com/in/francisco-zenteno-smith/
+SEFOP (or aspects of it) has been presented or is going to be presented at:
+- Informs Annual Meeting - Nov 2026 (San Francisco, CA) - to present the latest version of the technical framework: *“SEFOP: a Software Engineering Framework for Optimization Programs"*.
+- DSI Annual Conference - Nov 2026 (San Francisco, CA) - to present a paper of change management: *"Why operations research practitioners resist software engineering practices and what changes their behavior"*.
+- Agentic Quality Summit - May 2026 (Atlanta, GA)
+- Informs Annual Meeting - Oct 2025 (Atlanta, GA)
+- MIP Workshop - Dec 2025 Chile
 
 ## Who is this for?
 
 SEFOP is designed for two audiences:
 
 - **Academy**: graduate students, postdocs or professors who write optimization code and want to adopt software engineering practices without having a formal SE background.
-- **Industry**: operations research practitioners who already know some elements of software engineering and want a structured guide to level-up their code with production-software standards.
+- **Industry**:
+  - Operations research practitioners who already know some elements of software engineering and want a structured guide to level-up their code with professional standards.
+  - Engineering managers who are responsible for delivering decision-support software with professional standards.
 
-The repositories in this organization are designed as a learning path. Start where you are.
+## Resources available
 
+The repositories in this organization are structured in 3 types:
+- Training: help you practice and/or learn software engineering techniques, tailored for scientists.
+- Templates: show you an implementation of SEFOP that you could mimick or use as a starting point.
+- Agentic: provide you a set of tools to incorporate agentic development in your project.
 
-## Learning Path
+### Training repositories
 
-The repositories in this organization are structured as a progression:
+Everything related to training is here: [`sefop-training-hub`](https://github.com/sefop/sefop-training-hub).
 
-### 1. [`sefop-python-starter`](https://github.com/sefop/sefop-python-starter)
-**Start here if you are new to software engineering.**
+### Template repositories
 
-A CLI-based Python implementation focused purely on modularity and testing — no web infrastructure, no deployment complexity. You bring an optimization problem; SEFOP gives you the scaffold to build it right.
-
-### 2. [`sefop-python-advanced`](https://github.com/sefop/sefop-python-advanced)
-**Move here when you are ready for production infrastructure.**
-
-A full-stack Python implementation with a web application layer, CI/CD configuration, suggested architecture and software design. This is what a production-grade optimization system could look like.
-
-### 3. [`sefop-training-hub`](https://github.com/sefop/sefop-training-hub)
-**Use this as your guided path through both.**
-
-Exercises, tutorials, and worked examples that walk you through the SEFOP concepts in sequence, referencing the starter and advanced repos as you go.
-
-## Roadmap
-
-**Phase 1 — Python** *(in progress)*
-Deliver `sefop-python-starter`, `sefop-python-advanced`, and populate `sefop-training-hub` with foundational content.
-
-**Phase 2 — Java**
-Release `sefop-java`, bringing the same framework to JVM-based optimization stacks (Xpress, CPLEX, Gurobi via Java APIs).
-
-**Phase 3 — Agentic Patterns**
-Document how SEFOP's structure and test coverage enable safe agentic development workflows — where AI coding agents can contribute to optimization codebases reliably because the guardrails exist.
+SEFOP has some reference implementations of the framework in different languages and depth. Currently, it has:
+- SEFOP in python (starter version): https://github.com/sefop/sefop-python-starter
+- SEFOP in python (advanced version): https://github.com/sefop/sefop-python-advanced
+- SEFOP in java (advanced version): https://github.com/sefop/sefop-python-advanced (under construction)
 
 
 ## Join the Discussion
@@ -95,7 +80,9 @@ If you work with optimization software — whether you are a data scientist frus
 
 That is where the community lives. Contributions, new patterns, and new language implementations will grow from there.
 
-
 ## License
 
 MIT — see [LICENSE](LICENSE).
+
+## Connect with me
+- https://www.linkedin.com/in/francisco-zenteno-smith/
