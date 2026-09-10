@@ -139,6 +139,8 @@ SEFOP, or aspects of the framework, has been presented or is scheduled to be pre
 - **INFORMS Annual Meeting** — Oct 2025, Atlanta
 - **MIP Workshop** — Dec 2025, Chile
 - **Agentic Quality Summit** — May 2026, Atlanta
+- **AGIFORS Annual Symposium** — Oct 2026, Istanbul *(upcoming)*  
+  *Rethinking the Embedded OR Team as a Software Factory*
 - **DSI Annual Conference** — Nov 2026, San Francisco *(upcoming)*  
   *Why Operations Research Practitioners Resist Software Engineering Practices and What Changes Their Behavior*
 - **INFORMS Annual Meeting** — Nov 2026, San Francisco *(upcoming)*  
