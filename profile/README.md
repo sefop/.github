@@ -136,9 +136,12 @@ Guides and tools for using AI coding agents in optimization software development
 
 SEFOP, or aspects of the framework, has been presented or is scheduled to be presented at:
 
-- **INFORMS Annual Meeting** — Oct 2025, Atlanta
-- **MIP Workshop** — Dec 2025, Chile
-- **Agentic Quality Summit** — May 2026, Atlanta
+- **INFORMS Annual Meeting** — Oct 2025, Atlanta  
+  *ATOM: Automated Testing for Optimization Models*
+- **MIP Workshop** — Dec 2025, Chile  
+  *Deploying Optimization Models with Confidence — Automatic Testing for Optimization Models*
+- **Agentic Quality Summit** — May 2026, Atlanta  
+  *Faster Delivery through Higher Quality in Decision-Support Software*
 - **AGIFORS Annual Symposium** — Oct 2026, Istanbul *(upcoming)*  
   *Rethinking the Embedded OR Team as a Software Factory*
 - **DSI Annual Conference** — Nov 2026, San Francisco *(upcoming)*  
