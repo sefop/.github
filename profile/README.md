@@ -8,7 +8,7 @@
 ## What is SEFOP?
 
 SEFOP stands for Software Engineering Framework for Optimization Programs. It is a framework that brings modern software engineering techniques to decision-support 
-systems.
+systems and the teams who build them.
 
 ## What is a Decision-Support System?
 
@@ -20,17 +20,20 @@ include:
 - Planning the weekly delivery of cargo across a network.
 - Recovering the daily operation from a weather disruption in an airline.
 
-Typically, a DSS is developed to some extent by engineers specialized in decision science: operations research scientists. In fact, [Operations Research](https://en.wikipedia.org/wiki/Operations_research) (OR) is the branch of applied mathematics that specializes in better decision-making.
+Typically, a DSS is developed to some extent by engineers specialized in decision science: operations research scientists. In fact,
+[Operations Research](https://en.wikipedia.org/wiki/Operations_research) (OR) is the branch of applied mathematics that specializes in better decision-making.
 
-A DSS is not a one-off consulting project, but a system that needs to be developed, maintained, and improved with modern and professional engineering practices as with any
-other software system to maximize its business value. Some of these practices include:
+A DSS is not a one-off consulting project, but a system that needs to be developed, maintained, and improved with modern and professional engineering practices to
+maximize its business value. Some of these practices include:
 - Version control
 - Software design & architecture
 - Automated testing
 - DevOps
 
 ## So... what is the problem?
-DSS is rarely written with full professional software standards. Some consequences are:
+DSS has characteristics that make the software engineering problem different: mathematical formulations, complex algorithms, solvers, data, and experimentation all 
+interact in ways that do not map directly to what is typically taught in software engineering books. Unfortunately DSS are usually not written with full professional
+software standards tailored to its scientific needs. Some consequences are:
 - It may work on your machine, but it may not on another one. 
 - It is difficult to maintain and extend by your peers and even by yourself.
 - It may generate anxiety or fear to modify it.
@@ -44,18 +47,18 @@ The lack of professional software standards in DSS has two root causes ([Kanewal
 2. Technical: designing and testing this type of software has some unique challenges that are different from 'non-scientific' software.
 
 ## What if I use an agent to solve these problems?
-AI-coding assistants are becoming very popular. In fact, as of 2025 > 70% of scientific programmers code with LLM-based tools according to [O'Brien & Eisty, 2026](https://www.computer.org/csdl/magazine/cs/2026/01/11482007/2fJHVugY5UY).
-Nonetheless, according to recent studies ([Google Cloud DORA 2025](https://dora.dev/research/2025/dora-report/)), we have learned that an AI-coding assistant 
-"**primary role in software development is that of an amplifier**". In other words, these tools amplify the strengths and weaknesses of your engineering practices. If 
-you have strong engineering practices, you will capture the benefits of them. If you don't, you will "**likely have a hard time**". Thus, as a prerequisite to leveraging
-AI-coding assistants' value, you need to invest in professional practices first.
+AI-coding assistants are becoming very popular. In fact, as of 2025 > 70% of scientific programmers code with LLM-based tools according to 
+[O'Brien & Eisty, 2026](https://www.computer.org/csdl/magazine/cs/2026/01/11482007/2fJHVugY5UY). Nonetheless, according to recent studies 
+([Google Cloud DORA 2025](https://dora.dev/research/2025/dora-report/)), we have learned that an AI-coding assistant "**primary role in software development is that of an amplifier**".
+In other words, these tools amplify the strengths and weaknesses of your engineering practices. If you have strong engineering practices, you will capture the benefit
+of them. If you don't, you will "**likely have a hard time**". Thus, as a prerequisite to leveraging AI-coding assistants' value, you need to invest in professional practices first.
 
 ## How does SEFOP help
-SEFOP addresses the previous problems by setting its foundations in 4 pillars:
-1. Show you how to **Teach** your science team software engineering practices specifically for DSS.
-2. Show you how to **Lead** your team of scientists and developers.
-3. Show you how to **Deliver** professional software with modern software engineering standards.
-4. Show you how to **Go Agentic** to leverage the benefits of AI-assistant coding tools after you have the proper practices in place.
+What would software engineering look like if we designed it deliberately around the needs of DSS? The result is SEFOP, and it is grounded on 4 pillars::
+1. Show you how to **TRAIN** your science team software engineering practices specifically for DSS.
+2. Show you how to **LEAD** your team of scientists and developers.
+3. Show you how to **DELIVER** decision-support software with modern software engineering standards.
+4. Show you how to **GO AGENTIC** to leverage the benefits of AI-assistant coding tools after you have the proper practices in place.
 
 ## Where has this been presented?
 SEFOP (or aspects of it) has been presented or is going to be presented at:
@@ -69,17 +72,17 @@ SEFOP (or aspects of it) has been presented or is going to be presented at:
 
 SEFOP is designed for three personas:
 
-- **Academy**: graduate students, postdocs or professors who write optimization code and want to adopt software engineering practices without having a formal SE background.
+- **Academy**: graduate students, postdocs or professors who write optimization code and want to adopt software engineering practices without having a formal software 
+  engineering background.
 - **Industry**:
   - Operations research practitioners who already know some elements of software engineering and want a structured guide to level-up their code with professional standards.
   - Engineering managers who are responsible for delivering decision-support software with professional standards.
 
 ## Resources available
 
-The repositories in this organization are structured in 3 types:
-- Training: help you practice and/or learn software engineering techniques, tailored for scientists.
-- Templates: show you an implementation of SEFOP that you could mimick or use as a starting point.
-- Agentic layer: provide you a set of tools to incorporate agentic development in your project.
+This website is organized around repositories of 2 types:
+- Training repositories: help you to practice and/or learn software engineering in the context of DSS.
+- Templates repositories: show you an implementation of SEFOP that you could mimic or use as a starting point for your projects.
 
 ### Training repositories
 
