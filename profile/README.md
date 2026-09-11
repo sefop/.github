@@ -41,14 +41,13 @@ Examples include:
 These systems are often developed by Operations Research scientists and other decision-science practitioners. Because decision-support 
 software runs on a cadence rather than ending at a deliverable, it must be maintained, tested, deployed, reproduced, and evolved. 
 
-> [!NOTE]
-> The value is not in producing one analysis. It is in building a sustainable decision-making tool.
+> 💡 **The value is not in producing one analysis. It is in building a sustainable decision-making tool.**
 
 ---
 
 ## Why: what goes wrong, and why?
 
-Decision-support software usually has poor software engineering practices, specially the elements surrounding the applied mathematics. This gap has been
+Decision-support software usually has poor software engineering practices, specially in the elements surrounding the mathematical components. This gap has been
 documented and has 2 root causes ([Kanewala & Bieman, 2014](https://pubmed.ncbi.nlm.nih.gov/25125798/)):
 
 1. **Cultural.** OR scientists are not trained in software engineering, and often do not believe they should be.
@@ -63,8 +62,7 @@ What are the consequences of poorly designed software?:
 
 These are not mathematical problems, these are software engineering problems.
 
-> [!NOTE]
-> The business value of the decision-support software investment is constrained by the software used to deliver it.
+> 💡 **The business value of the decision-support software investment is constrained by the software used to deliver it.**
 
 ---
 
@@ -78,8 +76,7 @@ is that of an amplifier"_: it amplifies the strengths and the weaknesses of the 
 - Teams with strong engineering practices move faster while holding quality.
 - Teams without them ship more software that is hard to understand, test, and maintain.
 
-> [!NOTE]
-> Solid engineering practices are the prerequisite for capturing value from agentic development.
+> 💡 **Solid engineering practices are the prerequisite for capturing value from agentic development.**
 
 ---
 
@@ -119,7 +116,7 @@ Learn and practice software engineering in the context of decision-support softw
 
 How should you staff your team building a decision-support software, and how to lead it?
 
-→ Look into this section of this repository: [`sefop-training-hub`](https://github.com/sefop/sefop-training-hub/tree/main/lead)
+→ Look into this section of this repository: [sefop-training-hub](https://github.com/sefop/sefop-training-hub/tree/main/lead)
 
 ### Deliver
 
@@ -133,7 +130,7 @@ Reference implementations demonstrate how SEFOP practices can be applied in diff
 
 Guides and tools for using AI coding agents in decision-support software development.
 
-→ Look into this repository: [`sefop-agentic`](https://github.com/sefop/sefop-agentic)
+→ Look into this repository: [sefop-agentic](https://github.com/sefop/sefop-agentic)
 
 ---
 
