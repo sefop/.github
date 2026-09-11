@@ -19,7 +19,6 @@ delivery and agentic development.
 - [Why: what goes wrong, and why?](#why-what-goes-wrong-and-why)
 - [Can't AI agents solve this?](#cant-ai-agents-solve-this)
 - [What is SEFOP?](#what-is-sefop)
-- [Start here: where do I fit?](#start-here-where-do-i-fit)
 - [Resources: how to apply it](#resources-how-to-apply-it)
 - [Community: how to take part](#community-how-to-take-part)
 - [License](#license)
@@ -106,25 +105,6 @@ What are the goals of each pillar?:
 
 ---
 
-## Start here: where do I fit?
-
-### Academy
-
-- Graduate students, postdocs, and professors who develop decision-support software.
-- Researchers who want to adopt software engineering practices without a formal software engineering background.
-
-→ Start with **TRAIN**.
-
-### Industry
-
-- Operations Research practitioners who want a structured path toward professional software engineering practices.
-- OR and data science teams responsible for production decision-support software.
-- Engineering managers responsible for delivering software that can be maintained and evolved.
-
-→ Start with **DELIVER**, then **LEAD**.
-
----
-
 ## Resources: how to apply it
 
 SEFOP is developed as an open collection of **training material, reference implementations, and tools**.
@@ -133,9 +113,15 @@ SEFOP is developed as an open collection of **training material, reference imple
 
 Learn and practice software engineering in the context of decision-support software.
 
-→ [`sefop-training-hub`](https://github.com/sefop/sefop-training-hub)
+→ Look into this repository: [`sefop-training-hub`](https://github.com/sefop/sefop-training-hub)
 
-### Reference implementations
+### Lead
+
+How should you staff your team building a decision-support software, and how to lead it?
+
+→ Look into this section of this repository: [`sefop-training-hub`](https://github.com/sefop/sefop-training-hub/tree/main/lead)
+
+### Deliver
 
 Reference implementations demonstrate how SEFOP practices can be applied in different languages and at different levels of maturity.
 
@@ -143,24 +129,20 @@ Reference implementations demonstrate how SEFOP practices can be applied in diff
 - [Python advanced](https://github.com/sefop/sefop-python-advanced)
 - [Java advanced](https://github.com/sefop/sefop-java-advanced) *(under construction)*
 
-### Agentic tools
+### Go agentic
 
 Guides and tools for using AI coding agents in decision-support software development.
 
-→ [`sefop-agentic`](https://github.com/sefop/sefop-agentic)
+→ Look into this repository: [`sefop-agentic`](https://github.com/sefop/sefop-agentic)
 
 ---
 
 ## Community: how to take part
 
-SEFOP is an open initiative, not just a collection of repositories.
+SEFOP is an open initiative, shaped by real decision-support software development experience.
+**I want it shaped by yours too**.
 
-### Discuss
-
-SEFOP is shaped by real decision-support software development experience. I want it shaped by yours too.
-
-If you work with decision-support software (whether you are a researcher, an OR practitioner, a data scientist working with brittle
-code, or an engineering leader responsible for production systems), **[join the discussion](https://github.com/orgs/sefop/discussions)**.
+If you have ideas to share, please **[join the discussion](https://github.com/orgs/sefop/discussions)**.
 
 ### Contribute
 
@@ -189,6 +171,6 @@ SEFOP, or aspects of the framework, has been presented or is scheduled to be pre
 
 MIT. See [LICENSE](https://github.com/sefop/.github/blob/main/profile/LICENSE).
 
-## Connect
+## Connect with me
 
 I'm [Francisco Zenteno Smith](https://www.linkedin.com/in/francisco-zenteno-smith/), and I build and maintain SEFOP.
