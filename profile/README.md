@@ -41,7 +41,9 @@ Examples include:
 
 These systems are often developed by Operations Research scientists and other decision-science practitioners. Because decision-support 
 software runs on a cadence rather than ending at a deliverable, it must be maintained, tested, deployed, reproduced, and evolved. 
-**The value is not in producing one analysis. It is in building a repeatable decision-making tool.**
+
+
+[icon] **The value is not in producing one analysis. It is in building a sustainable decision-making tool.**
 
 ---
 
@@ -62,27 +64,29 @@ What are the consequences of poorly designed software?:
 
 These are not mathematical problems, these are software engineering problems.
 
-**The business value of the decision-support software investment is constrained by the software used to deliver it.**
+[icon] **The business value of the decision-support software investment is constrained by the software used to deliver it.**
 
 ---
 
 ## Can't AI agents solve this?
 
 AI coding assistants are already the default. As of 2025, more than 70% of scientific programmers write code with LLM-based tools
-([O'Brien & Eisty, 2026](https://www.computer.org/csdl/magazine/cs/2026/01/11482007/2fJHVugY5UY)). But they do not replace engineering practices. 
-The [2025 DORA report](https://dora.dev/research/2025/dora-report/) found that an AI coding assistant's "primary role in software development 
-is that of an amplifier": it amplifies the strengths and the weaknesses of the practices already around it. 
+([O'Brien & Eisty, 2026](https://www.computer.org/csdl/magazine/cs/2026/01/11482007/2fJHVugY5UY)). **But they do not replace engineering practices**.
+
+The [2025 DORA report](https://dora.dev/research/2025/dora-report/) found that an AI coding assistant's _"primary role in software development 
+is that of an amplifier"_: it amplifies the strengths and the weaknesses of the practices already around it. 
 - Teams with strong engineering practices move faster while holding quality.
 - Teams without them ship more software that is hard to understand, test, and maintain.
 
-**SEFOP therefore treats strong engineering practices as the prerequisite for agentic development, not as a parallel track.**
+[icon] **Solid engineering practices are the prerequisite for capturing value from agentic development.**
 
 ---
 
 ## What is SEFOP?
 
-SEFOP is a practical framework for applying software engineering to Operations Research. It is built to help OR teams move from
-_"we built a model that works today"_ to _"we built a system that can be trusted, maintained, and evolved efficiently over time"_.
+What would software engineering look like if we adapted it deliberately around the needs of applied operations research? The answer is **SEFOP**, 
+a practical framework for applying software engineering to Operations Research. It is built to help OR teams move from
+_"we built a model that works today"_ to _"we built a system that can be deployed, maintained, and evolved efficiently over time"_.
 SEFOP has 4 pillars:
 
 <p align="center">
