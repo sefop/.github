@@ -85,8 +85,8 @@ is that of an amplifier"_: it amplifies the strengths and the weaknesses of the 
 ## What is SEFOP?
 
 What would software engineering look like if we adapted it deliberately around the needs of applied operations research? The answer is **SEFOP**, 
-a practical framework for applying software engineering to Operations Research. It is built to help OR teams move from
-_"we built a model that works today"_ to _"we built a system that can be deployed, maintained, and evolved efficiently over time"_.
+a framework specifically for this task. It is built to help OR teams move from _"we built a model that works today"_ to _"we built a system that 
+can be deployed, maintained, and evolved efficiently over time"_.
 SEFOP has 4 pillars:
 
 <p align="center">
@@ -94,86 +94,13 @@ SEFOP has 4 pillars:
        alt="SEFOP framework: Train Skills, Lead Culture, Deliver Engineering, Go Agentic AI" width="900">
 </p>
 
-SEFOP develops capability across four dimensions, spanning the journey from **people → teams → software → AI**.
+SEFOP develops capability across four dimensions, spanning the journey from **people → teams → software → Agentic-development**.
 
-### TRAIN
-
-**Build software engineering capability in OR professionals.**
-
-OR scientists already bring strong mathematical and analytical skills. SEFOP complements those skills with practical software
-engineering knowledge.
-
-Focus areas include:
-
-- software design
-- modularity
-- testing
-- version control
-- CI/CD
-- code quality
-- reproducibility
-- maintainability
-
-**Goal:** develop OR professionals who can engineer the software behind their models.
-
-### LEAD
-
-**Build teams that can consistently deliver quality decision-support software.**
-
-Software engineering is not only an individual skill. Teams need shared practices, standards, architecture, ownership, and feedback
-loops.
-
-Focus areas include:
-
-- engineering practices
-- team standards
-- architecture
-- technical debt
-- development workflows
-- quality practices
-- knowledge sharing
-- continuous improvement
-
-**Goal:** move from individual craftsmanship to a sustainable engineering culture.
-
-### DELIVER
-
-**Build production-grade decision-support software.**
-
-Decision-support software needs more than a working optimization model. It needs software architecture and engineering practices that
-support reliable operation and continuous change.
-
-Focus areas include:
-
-- modular architecture
-- automated testing
-- CI/CD
-- deployment
-- observability
-- maintainability
-- reproducibility
-- production operations
-
-**Goal:** reliably deliver decision-support software that can run repeatedly in production.
-
-### GO AGENTIC
-
-**Use AI to accelerate software engineering without abandoning engineering discipline.**
-
-Agentic development can dramatically increase the speed at which software is produced. But faster generation does not automatically
-produce better software.
-
-Focus areas include:
-
-- agentic development workflows
-- AI-assisted coding
-- automated testing
-- code review
-- engineering guardrails
-- AI-ready repositories
-- human oversight
-
-**Goal:** use AI to accelerate the delivery of trustworthy decision-support software.
+What are the goals of each pillar?:
+- Train: provide you materials to train operations research scientists in best practices of software engineering.
+- Lead: show you how you should staff and lead a team building decision-support software.
+- Deliver: show you examples of how a professional decision-support software looks like.
+- Go agentic: show you how you can leverage AI-coding assistants to maximize the value of your decision-support software.
 
 ---
 
