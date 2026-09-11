@@ -1,13 +1,13 @@
-# SEFOP — Software Engineering Framework for Optimization Programs
+# SEFOP: Software Engineering Framework for Optimization Programs
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Discussions](https://img.shields.io/badge/GitHub-Discussions-9b59b6?logo=github)](https://github.com/orgs/sefop/discussions)
 
 > **A practical framework for building optimization software that is maintainable, testable, reproducible, and ready for production.**
 
-Operations Research (OR) creates business value through software. An **optimization program** — software whose core is a mathematical model solved to support a recurring decision — is usually built with practices designed for one-off analysis rather than for long-lived systems.
+Operations Research (OR) creates business value through software. An **optimization program** is software whose core is a mathematical model solved to support a recurring decision. It is usually built with practices designed for one-off analysis rather than for long-lived systems.
 
-**SEFOP brings software engineering practices into optimization development — from training and team leadership to software delivery and agentic development.**
+**SEFOP brings software engineering practices into optimization development, from training and team leadership to software delivery and agentic development.**
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/sefop/.github/main/assets/sefop-framework.png" alt="SEFOP framework: Train Skills, Lead Culture, Deliver Engineering, Go Agentic AI" width="900">
@@ -34,13 +34,13 @@ Optimization software has characteristics that make its engineering challenges d
 
 The gap has two root causes ([Kanewala & Bieman, 2014](https://pubmed.ncbi.nlm.nih.gov/25125798/)):
 
-1. **Cultural** — OR scientists are not trained in software engineering, and often do not believe they should be.
-2. **Technical** — designing and testing this class of software poses challenges that non-scientific software does not.
+1. **Cultural.** OR scientists are not trained in software engineering, and often do not believe they should be.
+2. **Technical.** Designing and testing this class of software poses challenges that non-scientific software does not.
 
 Left unaddressed, the common consequences are:
 
 - Code that works on one machine but is difficult to reproduce elsewhere.
-- Systems that are difficult for peers — and even their original authors — to maintain or extend.
+- Systems that are difficult for peers, and even for their original authors, to maintain or extend.
 - Changes that become risky because developers are afraid of breaking existing behavior.
 - Optimization applications that eventually need to be rewritten rather than evolved.
 
@@ -50,7 +50,7 @@ The result is not simply technical debt. **The business value of the optimizatio
 
 ## Optimization software is software
 
-A decision-support system is software that supports business or organizational decision-making. It may support operational, tactical, or strategic decisions and is often executed repeatedly — daily, weekly, monthly, or in response to disruptions.
+A decision-support system is software that supports business or organizational decision-making. It may support operational, tactical, or strategic decisions, and is often executed repeatedly: daily, weekly, monthly, or in response to disruptions.
 
 Examples include:
 
@@ -106,25 +106,25 @@ They do not replace engineering practices. The [2025 DORA report](https://dora.d
 
 SEFOP is developed as an open collection of **training material, reference implementations, and tools**.
 
-### TRAIN — Training
+### TRAIN: Training
 
 Learn and practice software engineering in the context of optimization and decision-support systems.
 
 → [`sefop-training-hub`](https://github.com/sefop/sefop-training-hub)
 
-### LEAD — Team practices *(in development)*
+### LEAD: Team practices *(in development)*
 
 Guidance for leaders who want to establish sustainable software engineering practices within optimization teams.
 
-### DELIVER — Reference implementations
+### DELIVER: Reference implementations
 
 Reference implementations demonstrate how SEFOP practices can be applied in different languages and at different levels of maturity.
 
-- Python — [starter](https://github.com/sefop/sefop-python-starter)
-- Python — [advanced](https://github.com/sefop/sefop-python-advanced)
-- Java — [advanced](https://github.com/sefop/sefop-java-advanced) *(under construction)*
+- [Python starter](https://github.com/sefop/sefop-python-starter)
+- [Python advanced](https://github.com/sefop/sefop-python-advanced)
+- [Java advanced](https://github.com/sefop/sefop-java-advanced) *(under construction)*
 
-### GO AGENTIC — Agentic development
+### GO AGENTIC: Agentic development
 
 Guides and tools for using AI coding agents in optimization software development.
 
@@ -136,17 +136,17 @@ Guides and tools for using AI coding agents in optimization software development
 
 SEFOP, or aspects of the framework, has been presented or is scheduled to be presented at:
 
-- **INFORMS Annual Meeting** — Oct 2025, Atlanta  
+- **INFORMS Annual Meeting**, Oct 2025, Atlanta  
   *ATOM: Automated Testing for Optimization Models*
-- **MIP Workshop** — Dec 2025, Chile  
-  *Deploying Optimization Models with Confidence — Automatic Testing for Optimization Models*
-- **Agentic Quality Summit** — May 2026, Atlanta  
+- **MIP Workshop**, Dec 2025, Chile  
+  *Deploying Optimization Models with Confidence: Automatic Testing for Optimization Models*
+- **Agentic Quality Summit**, May 2026, Atlanta  
   *Faster Delivery through Higher Quality in Decision-Support Software*
-- **AGIFORS Annual Symposium** — Oct 2026, Istanbul *(upcoming)*  
+- **AGIFORS Annual Symposium**, Oct 2026, Istanbul *(upcoming)*  
   *Rethinking the Embedded OR Team as a Software Factory*
-- **DSI Annual Conference** — Nov 2026, San Francisco *(upcoming)*  
+- **DSI Annual Conference**, Nov 2026, San Francisco *(upcoming)*  
   *Why Operations Research Practitioners Resist Software Engineering Practices and What Changes Their Behavior*
-- **INFORMS Annual Meeting** — Nov 2026, San Francisco *(upcoming)*  
+- **INFORMS Annual Meeting**, Nov 2026, San Francisco *(upcoming)*  
   *SEFOP: A Software Engineering Framework for Optimization Programs*
 
 ---
@@ -155,7 +155,7 @@ SEFOP, or aspects of the framework, has been presented or is scheduled to be pre
 
 SEFOP is shaped by real optimization software development experience. I want it shaped by yours too.
 
-If you work with optimization software — whether you are a researcher, an OR practitioner, a data scientist working with brittle code, or an engineering leader responsible for decision-support systems — **[join the discussion](https://github.com/orgs/sefop/discussions)**.
+If you work with optimization software (whether you are a researcher, an OR practitioner, a data scientist working with brittle code, or an engineering leader responsible for decision-support systems), **[join the discussion](https://github.com/orgs/sefop/discussions)**.
 
 Contributions, new practices, reference implementations, and additional language implementations are welcome.
 
@@ -163,8 +163,8 @@ Contributions, new practices, reference implementations, and additional language
 
 ## License
 
-MIT — see [LICENSE](https://github.com/sefop/.github/blob/main/profile/LICENSE).
+MIT. See [LICENSE](https://github.com/sefop/.github/blob/main/profile/LICENSE).
 
 ## Connect
 
-I'm [Francisco Zenteno Smith](https://www.linkedin.com/in/francisco-zenteno-smith/) — I build and maintain SEFOP.
+I'm [Francisco Zenteno Smith](https://www.linkedin.com/in/francisco-zenteno-smith/), and I build and maintain SEFOP.
