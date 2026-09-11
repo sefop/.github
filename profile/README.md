@@ -3,37 +3,53 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Discussions](https://img.shields.io/badge/GitHub-Discussions-9b59b6?logo=github)](https://github.com/orgs/sefop/discussions)
 
-> **A practical framework for building optimization software that is maintainable, testable, reproducible, and ready for production.**
+> **A practical framework for building decision-support software that is maintainable, testable, reproducible, and ready for production.**
 
-Operations Research (OR) creates business value through software. An **optimization program** is software whose core is a mathematical
-model solved to support a recurring decision. It is usually built with practices designed for one-off analysis rather than for long-lived systems.
+Operations Research (OR) creates business value by helping organizations make better decisions. That value is delivered through
+**decision-support software**: software that runs repeatedly to turn data, models, and business rules into recurring business decisions.
 
-**SEFOP brings software engineering practices into optimization development, from training and team leadership to software delivery and
-agentic development.**
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/sefop/.github/main/assets/sefop-framework.png"
-       alt="SEFOP framework: Train Skills, Lead Culture, Deliver Engineering, Go Agentic AI" width="900">
-</p>
+SEFOP brings software engineering practices into the development of that software, from training and team leadership to software
+delivery and agentic development.
 
 ---
 
-## The SEFOP framework
+## Contents
 
-SEFOP is organized around four complementary capabilities:
-
-| **TRAIN** | **LEAD** | **DELIVER** | **GO AGENTIC** |
-|:---:|:---:|:---:|:---:|
-| Skills | Culture | Engineering | AI |
-| Build software engineering skills within optimization teams. | Establish team practices that support sustainable development. | Apply professional engineering practices to optimization software. | Use AI coding agents effectively on top of strong engineering practices. |
-
-These capabilities span the journey from **people → teams → software → AI**.
+- [Context: what are we building?](#context-what-are-we-building)
+- [Why: what goes wrong, and why?](#why-what-goes-wrong-and-why)
+  - [Can't AI agents solve this?](#cant-ai-agents-solve-this)
+- [What is SEFOP?](#what-is-sefop)
+- [The framework: how SEFOP works](#the-framework-how-sefop-works)
+- [Start here: where do I fit?](#start-here-where-do-i-fit)
+- [Resources: how to apply it](#resources-how-to-apply-it)
+- [Community: how to take part](#community-how-to-take-part)
+- [License](#license)
+- [Connect](#connect)
 
 ---
 
-## Why SEFOP?
+## Context: what are we building?
 
-Optimization software has characteristics that make its engineering challenges different from those of conventional applications.
+Decision-support software turns data, models, and business rules into decisions. It may support operational, tactical, or strategic
+decisions, and unlike a one-off analysis it is designed to run repeatedly.
+
+Examples include:
+
+- Planning the **annual** extraction of resources from a mine.
+- Scheduling the **monthly** shift schedules of a retail store.
+- Planning the **weekly** delivery of cargo across a network.
+- Recovering the **daily** operation from a weather disruption in an airline.
+
+These systems are often developed by Operations Research scientists and other decision-science practitioners.
+
+Because decision-support software runs on a cadence rather than ending at a deliverable, it must be maintained, tested, deployed,
+reproduced, and evolved. **The value is not in producing one analysis. It is in building a repeatable decision-making capability.**
+
+---
+
+## Why: what goes wrong, and why?
+
+Decision-support software has characteristics that make its engineering challenges different from those of conventional applications.
 Mathematical formulations, algorithms, solvers, data, experimentation, and business rules all interact.
 
 The gap has two root causes ([Kanewala & Bieman, 2014](https://pubmed.ncbi.nlm.nih.gov/25125798/)):
@@ -46,44 +62,12 @@ Left unaddressed, the common consequences are:
 - Code that works on one machine but is difficult to reproduce elsewhere.
 - Systems that are difficult for peers, and even for their original authors, to maintain or extend.
 - Changes that become risky because developers are afraid of breaking existing behavior.
-- Optimization applications that eventually need to be rewritten rather than evolved.
+- Applications that eventually need to be rewritten rather than evolved.
 
-The result is not simply technical debt. **The business value of the optimization investment is constrained by the software used to deliver it.**
+These are not primarily mathematical problems. They are software engineering problems, and the result is not simply technical debt.
+**The business value of the optimization investment is constrained by the software used to deliver it.**
 
----
-
-## Optimization software is software
-
-A decision-support system is software that supports business or organizational decision-making. It may support operational, tactical,
-or strategic decisions, and is often executed repeatedly: daily, weekly, monthly, or in response to disruptions.
-
-Examples include:
-
-- Planning the annual extraction of resources from a mine.
-- Scheduling retail store shifts.
-- Planning cargo flows across a transportation network.
-- Recovering airline operations after a disruption.
-
-These systems are often developed by Operations Research scientists and other decision-science practitioners.
-
-A decision-support system is therefore **not a one-off consulting analysis**. It is a software system that needs to be developed,
-maintained, tested, deployed, and improved over time.
-
-SEFOP applies engineering practices such as:
-
-- Version control
-- Software design and architecture
-- Automated testing
-- Continuous integration and delivery
-- DevOps
-- Reproducibility
-- Modular development
-
-while accounting for the specific needs of optimization software.
-
----
-
-## Why not just use AI coding agents?
+### Can't AI agents solve this?
 
 AI coding assistants are already the default. As of 2025, more than 70% of scientific programmers write code with LLM-based tools
 ([O'Brien & Eisty, 2026](https://www.computer.org/csdl/magazine/cs/2026/01/11482007/2fJHVugY5UY)).
@@ -97,36 +81,133 @@ is hard to understand, test, and maintain.
 
 ---
 
-## Who is SEFOP for?
+## What is SEFOP?
+
+SEFOP is a practical framework for applying software engineering to Operations Research. It is built to help OR teams move from
+"we built a model that works" to "we built a system that can be trusted, maintained, and evolved."
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/sefop/.github/main/assets/sefop-framework.png"
+       alt="SEFOP framework: Train Skills, Lead Culture, Deliver Engineering, Go Agentic AI" width="900">
+</p>
+
+SEFOP develops capability across four dimensions, spanning the journey from **people → teams → software → AI**.
+
+---
+
+## The framework: how SEFOP works
+
+### TRAIN
+
+**Build software engineering capability in OR professionals.**
+
+OR scientists already bring strong mathematical and analytical skills. SEFOP complements those skills with practical software
+engineering knowledge.
+
+Focus areas include:
+
+- software design
+- modularity
+- testing
+- version control
+- CI/CD
+- code quality
+- reproducibility
+- maintainability
+
+**Goal:** develop OR professionals who can engineer the software behind their models.
+
+### LEAD
+
+**Build teams that can consistently deliver quality decision-support software.**
+
+Software engineering is not only an individual skill. Teams need shared practices, standards, architecture, ownership, and feedback
+loops.
+
+Focus areas include:
+
+- engineering practices
+- team standards
+- architecture
+- technical debt
+- development workflows
+- quality practices
+- knowledge sharing
+- continuous improvement
+
+**Goal:** move from individual craftsmanship to a sustainable engineering culture.
+
+### DELIVER
+
+**Build production-grade decision-support software.**
+
+Decision-support software needs more than a working optimization model. It needs software architecture and engineering practices that
+support reliable operation and continuous change.
+
+Focus areas include:
+
+- modular architecture
+- automated testing
+- CI/CD
+- deployment
+- observability
+- maintainability
+- reproducibility
+- production operations
+
+**Goal:** reliably deliver decision-support software that can run repeatedly in production.
+
+### GO AGENTIC
+
+**Use AI to accelerate software engineering without abandoning engineering discipline.**
+
+Agentic development can dramatically increase the speed at which software is produced. But faster generation does not automatically
+produce better software.
+
+Focus areas include:
+
+- agentic development workflows
+- AI-assisted coding
+- automated testing
+- code review
+- engineering guardrails
+- AI-ready repositories
+- human oversight
+
+**Goal:** use AI to accelerate the delivery of trustworthy decision-support software.
+
+---
+
+## Start here: where do I fit?
 
 ### Academy
 
-- Graduate students, postdocs, and professors who develop optimization software.
+- Graduate students, postdocs, and professors who develop decision-support software.
 - Researchers who want to adopt software engineering practices without a formal software engineering background.
+
+→ Start with **TRAIN**.
 
 ### Industry
 
 - Operations Research practitioners who want a structured path toward professional software engineering practices.
-- OR and data science teams responsible for production decision-support systems.
-- Engineering managers responsible for delivering optimization software that can be maintained and evolved.
+- OR and data science teams responsible for production decision-support software.
+- Engineering managers responsible for delivering software that can be maintained and evolved.
+
+→ Start with **DELIVER**, then **LEAD**.
 
 ---
 
-## What you'll find here
+## Resources: how to apply it
 
 SEFOP is developed as an open collection of **training material, reference implementations, and tools**.
 
-### TRAIN: Training
+### Training
 
-Learn and practice software engineering in the context of optimization and decision-support systems.
+Learn and practice software engineering in the context of decision-support software.
 
 → [`sefop-training-hub`](https://github.com/sefop/sefop-training-hub)
 
-### LEAD: Team practices *(in development)*
-
-Guidance for leaders who want to establish sustainable software engineering practices within optimization teams.
-
-### DELIVER: Reference implementations
+### Reference implementations
 
 Reference implementations demonstrate how SEFOP practices can be applied in different languages and at different levels of maturity.
 
@@ -134,15 +215,30 @@ Reference implementations demonstrate how SEFOP practices can be applied in diff
 - [Python advanced](https://github.com/sefop/sefop-python-advanced)
 - [Java advanced](https://github.com/sefop/sefop-java-advanced) *(under construction)*
 
-### GO AGENTIC: Agentic development
+### Agentic tools
 
-Guides and tools for using AI coding agents in optimization software development.
+Guides and tools for using AI coding agents in decision-support software development.
 
 → [`sefop-agentic`](https://github.com/sefop/sefop-agentic)
 
 ---
 
-## Where has SEFOP been presented?
+## Community: how to take part
+
+SEFOP is an open initiative, not just a collection of repositories.
+
+### Discuss
+
+SEFOP is shaped by real decision-support software development experience. I want it shaped by yours too.
+
+If you work with decision-support software (whether you are a researcher, an OR practitioner, a data scientist working with brittle
+code, or an engineering leader responsible for production systems), **[join the discussion](https://github.com/orgs/sefop/discussions)**.
+
+### Contribute
+
+Contributions, new practices, reference implementations, and additional language implementations are welcome.
+
+### Public presentations
 
 SEFOP, or aspects of the framework, has been presented or is scheduled to be presented at:
 
@@ -158,17 +254,6 @@ SEFOP, or aspects of the framework, has been presented or is scheduled to be pre
   *Why Operations Research Practitioners Resist Software Engineering Practices and What Changes Their Behavior*
 - **INFORMS Annual Meeting**, Nov 2026, San Francisco *(upcoming)*  
   *SEFOP: A Software Engineering Framework for Optimization Programs*
-
----
-
-## Join the discussion
-
-SEFOP is shaped by real optimization software development experience. I want it shaped by yours too.
-
-If you work with optimization software (whether you are a researcher, an OR practitioner, a data scientist working with brittle code,
-or an engineering leader responsible for decision-support systems), **[join the discussion](https://github.com/orgs/sefop/discussions)**.
-
-Contributions, new practices, reference implementations, and additional language implementations are welcome.
 
 ---
 
