@@ -19,7 +19,6 @@ delivery and agentic development.
 - [Why: what goes wrong, and why?](#why-what-goes-wrong-and-why)
 - [Can't AI agents solve this?](#cant-ai-agents-solve-this)
 - [What is SEFOP?](#what-is-sefop)
-- [The framework: how SEFOP works](#the-framework-how-sefop-works)
 - [Start here: where do I fit?](#start-here-where-do-i-fit)
 - [Resources: how to apply it](#resources-how-to-apply-it)
 - [Community: how to take part](#community-how-to-take-part)
@@ -84,6 +83,7 @@ is that of an amplifier": it amplifies the strengths and the weaknesses of the p
 
 SEFOP is a practical framework for applying software engineering to Operations Research. It is built to help OR teams move from
 _"we built a model that works today"_ to _"we built a system that can be trusted, maintained, and evolved efficiently over time"_.
+SEFOP has 4 pillars:
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/sefop/.github/main/assets/sefop-framework.png"
@@ -91,10 +91,6 @@ _"we built a model that works today"_ to _"we built a system that can be trusted
 </p>
 
 SEFOP develops capability across four dimensions, spanning the journey from **people → teams → software → AI**.
-
----
-
-## The framework: how SEFOP works
 
 ### TRAIN
 
