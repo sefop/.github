@@ -97,10 +97,10 @@ SEFOP has 4 pillars:
 SEFOP develops capability across four dimensions, spanning the journey from **people → teams → software → Agentic-development**.
 
 What are the goals of each pillar?:
-- Train: provide you materials to train operations research scientists in best practices of software engineering.
-- Lead: show you how you should staff and lead a team building decision-support software.
-- Deliver: show you examples of how a professional decision-support software looks like.
-- Go agentic: show you how you can leverage AI-coding assistants to maximize the value of your decision-support software.
+- **Train**: provide you materials to train operations research scientists in best practices of software engineering.
+- **Lead**: show you how you should staff and lead a team building decision-support software.
+- **Deliver**: show you examples of how a professional decision-support software looks like.
+- **Go agentic**: show you how you can leverage AI-coding assistants to maximize the value of your decision-support software.
 
 ---
 
