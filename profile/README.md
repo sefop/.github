@@ -42,8 +42,8 @@ Examples include:
 These systems are often developed by Operations Research scientists and other decision-science practitioners. Because decision-support 
 software runs on a cadence rather than ending at a deliverable, it must be maintained, tested, deployed, reproduced, and evolved. 
 
-
-[icon] **The value is not in producing one analysis. It is in building a sustainable decision-making tool.**
+> [!NOTE]
+> The value is not in producing one analysis. It is in building a sustainable decision-making tool.
 
 ---
 
@@ -64,7 +64,8 @@ What are the consequences of poorly designed software?:
 
 These are not mathematical problems, these are software engineering problems.
 
-[icon] **The business value of the decision-support software investment is constrained by the software used to deliver it.**
+> [!NOTE]
+> The business value of the decision-support software investment is constrained by the software used to deliver it.
 
 ---
 
@@ -78,7 +79,8 @@ is that of an amplifier"_: it amplifies the strengths and the weaknesses of the 
 - Teams with strong engineering practices move faster while holding quality.
 - Teams without them ship more software that is hard to understand, test, and maintain.
 
-[icon] **Solid engineering practices are the prerequisite for capturing value from agentic development.**
+> [!NOTE]
+> Solid engineering practices are the prerequisite for capturing value from agentic development.
 
 ---
 
