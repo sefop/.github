@@ -20,8 +20,8 @@ directed to the engineering managers and the scientists/developers building this
 - [Why: what goes wrong, and why?](#why-what-goes-wrong-and-why)
 - [Can't AI agents solve this?](#cant-ai-agents-solve-this)
 - [What is SEFOP?](#what-is-sefop)
-- [Who maintains SEFOP](#who-maintains-sefop)
 - [Resources: where to start](#resources-where-to-start)
+- [Who maintains SEFOP](#who-maintains-sefop)
 - [Community: how to take part](#community-how-to-take-part)
 - [License](#license)
 
@@ -114,6 +114,20 @@ produce:
 
 ---
 
+## Resources: where to start
+
+SEFOP is developed as an open collection of **training material, reference implementations, and tools**. Start from your situation
+rather than from the framework:
+
+| If you… | Start here                                                                                                                                                                                                                                       |
+|---|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **write the models** | [sefop-training-hub](https://github.com/sefop/sefop-training-hub) — learn and practice software engineering in the context of decision-support software                                                                                          |
+| **lead the team that writes them** | [sefop-training-hub/lead](https://github.com/sefop/sefop-training-hub/tree/main/lead) — how to staff and lead a team building decision-support software                                                                                          |
+| **are starting a new project** | [sefop-python-starter](https://github.com/sefop/sefop-python-starter) · [`sefop-python-advanced`](https://github.com/sefop/sefop-python-advanced) · [`sefop-java-advanced`](https://github.com/sefop/sefop-java-advanced) *(under construction)* |
+| **use AI coding agents on this work** | [sefop-agentic](https://github.com/sefop/sefop-agentic) — guides and tools for agentic development                                                                                                                                               |
+
+---
+
 ## Who maintains SEFOP
 
 I'm [Francisco Zenteno Smith](https://www.linkedin.com/in/francisco-zenteno-smith/), and I build and maintain SEFOP. The framework
@@ -136,20 +150,6 @@ comes out of building decision-support software in practice, not out of a litera
   *Why Operations Research Practitioners Resist Software Engineering Practices and What Changes Their Behavior*
 - **INFORMS Annual Meeting**, Nov 2026, San Francisco
   *SEFOP: A Software Engineering Framework for Optimization Programs*
-
----
-
-## Resources: where to start
-
-SEFOP is developed as an open collection of **training material, reference implementations, and tools**. Start from your situation
-rather than from the framework:
-
-| If you… | Start here                                                                                                                                                                                                                                       |
-|---|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **write the models** | [sefop-training-hub](https://github.com/sefop/sefop-training-hub) — learn and practice software engineering in the context of decision-support software                                                                                          |
-| **lead the team that writes them** | [sefop-training-hub/lead](https://github.com/sefop/sefop-training-hub/tree/main/lead) — how to staff and lead a team building decision-support software                                                                                          |
-| **are starting a new project** | [sefop-python-starter](https://github.com/sefop/sefop-python-starter) · [`sefop-python-advanced`](https://github.com/sefop/sefop-python-advanced) · [`sefop-java-advanced`](https://github.com/sefop/sefop-java-advanced) *(under construction)* |
-| **use AI coding agents on this work** | [sefop-agentic](https://github.com/sefop/sefop-agentic) — guides and tools for agentic development                                                                                                                                               |
 
 ---
 
