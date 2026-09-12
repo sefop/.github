@@ -49,24 +49,37 @@ software runs on a cadence rather than ending at a deliverable, it must be maint
 ## Why: what goes wrong, and why?
 
 Decision-support software often has weak software engineering practices, especially in the components surrounding the mathematical model.
-The literature has already mentioned it:
+The literature has already mentioned it, within operations research:
 
+- [Ackoff (1979)](https://doi.org/10.1057/jors.1979.22): argues OR became identified with mathematical models and algorithms rather than
+with formulating problems, implementing solutions, and maintaining them in changing environments.
+- **[Vidoni, Cunico & Vecchietti (2018, ICEIS)](https://melvidoni.rbind.io/pdf/2018-iceis-agile-or.pdf)**: observe that developers do not acknowledge OR models as 
+systems that belong to an organization, and that interventions focus only on the mathematical code.
+- **Vidoni, Cunico & Vecchietti (2018, CIE48)**: note that OR models face continuously changing requirements and constant rework of the
+mathematical code, yet scarce mechanisms exist to control its quality.
+- [Vidoni, Cunico & Vecchietti (2020)](https://doi.org/10.1080/01605682.2020.1718557): find that Soft-OR and problem structuring methods
+address only the understanding of the problem, ignoring the rest of the lifecycle.
 - [Vidoni (2021)](https://doi.org/10.1080/01605682.2020.1865848): recognizes the need of an 'Operations Research Engineering' practice to
-specifically tackle the software perspective.
+specifically tackle the software perspective of the discipline.
+- [Vidoni & Cunico (2022)](https://doi.org/10.1007/s12532-022-00225-1): survey 168 modellers and find code and documentation debt
+widespread in mathematical programming, and mostly introduced deliberately.
+
+And in scientific software more broadly:
+
 - [Kanewala & Bieman (2014)](https://doi.org/10.1016/j.infsof.2014.05.006): shows scientists are typically not trained in software testing, and 
-testing scientific software comes from cultural and technical challenges.
+testing scientific software has cultural and technical challenges.
 
 I have seen the same 2 reasons Kanewala & Bieman (2014) mention in the industry:
 
-1. **Cultural.** OR scientists are not trained in software engineering, and often do not believe they should be or are not aware of the benefits.
+1. **Cultural.** OR scientists are not trained in software engineering, and often do not believe they should be (or they don't know the benefits).
 2. **Technical.** Designing decision-support software is difficult: it has challenges that ordinary business software does not.
 
-What are the consequences of poorly engineered software?
+Some consequences of poorly designed software are:
 
-- Code that works on one machine but is difficult to reproduce elsewhere.
-- Systems that are difficult for peers, and even for their original authors, to maintain or extend.
-- Developers who are afraid of modifying the system, because the consequences are unpredictable.
-- Applications that eventually need to be rewritten rather than evolved.
+- Code works on one machine but is difficult to reproduce elsewhere.
+- Systems are difficult for peers -and even for their original authors- to maintain or extend.
+- Developers are afraid of modifying the system because the consequences are unpredictable.
+- Applications eventually need to be rewritten rather than evolved.
 
 These are not mathematical problems. They are software engineering problems.
 
