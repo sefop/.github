@@ -49,16 +49,17 @@ software runs on a cadence rather than ending at a deliverable, it must be maint
 ## Why: what goes wrong, and why?
 
 Decision-support software often has weak software engineering practices, especially in the components surrounding the mathematical model.
+The literature has already mentioned it:
 
-The closest documented evidence comes from a neighboring field. A systematic review of testing in scientific software
-([Kanewala & Bieman, 2014](https://pubmed.ncbi.nlm.nih.gov/25125798/)) identifies two classes of obstacle: scientists are typically not
-trained in software testing, and this class of software poses testing challenges that ordinary business software does not.
+- [Vidoni (2021)](https://doi.org/10.1080/01605682.2020.1865848): recognizes the need of an 'Operations Research Engineering' practice to
+specifically tackle the software perspective.
+- [Kanewala & Bieman (2014)](https://doi.org/10.1016/j.infsof.2014.05.006): shows scientists are typically not trained in software testing, and 
+testing scientific software comes from cultural and technical challenges.
 
-That review covers testing in computational science, not the full range of software engineering practices in OR. From my own experience
-building and reviewing decision-support systems, the same two root causes apply here:
+I have seen the same 2 reasons Kanewala & Bieman (2014) mention in the industry:
 
 1. **Cultural.** OR scientists are not trained in software engineering, and often do not believe they should be or are not aware of the benefits.
-2. **Technical.** Designing and testing this class of software poses challenges that ordinary business software does not.
+2. **Technical.** Designing decision-support software is difficult: it has challenges that ordinary business software does not.
 
 What are the consequences of poorly engineered software?
 
@@ -69,7 +70,7 @@ What are the consequences of poorly engineered software?
 
 These are not mathematical problems. They are software engineering problems.
 
-> 💡 **The business value of the decision-support software investment is constrained by the software used to deliver it.**
+> 💡 **The business value of the decision-support project investment is constrained by the software used to deliver it.**
 
 ---
 
@@ -95,7 +96,7 @@ on. That is the reason the practices below matter now, not a reason to postpone 
 ## What is SEFOP?
 
 What would software engineering look like if we adapted it deliberately around the needs of applied operations research? The answer is
-**SEFOP**, a framework specifically for this task. It is built to help OR teams move from _"we built a model that works today"_ to
+**SEFOP**, a framework specifically designed for this task. It is built to help OR teams move from _"we built a model that works today"_ to
 _"we built a system that can be deployed, maintained, and evolved efficiently over time"_.
 
 <p align="center">
