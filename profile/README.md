@@ -53,7 +53,7 @@ The literature has already mentioned it, within operations research:
 
 - [Ackoff (1979)](https://doi.org/10.1057/jors.1979.22): argues OR became identified with mathematical models and algorithms rather than
 with formulating problems, implementing solutions, and maintaining them in changing environments.
-- **[Vidoni, Cunico & Vecchietti (2018, ICEIS)](https://melvidoni.rbind.io/pdf/2018-iceis-agile-or.pdf)**: observe that developers do not acknowledge OR models as 
+- [Vidoni, Cunico & Vecchietti (2018, ICEIS)](https://melvidoni.rbind.io/pdf/2018-iceis-agile-or.pdf): observe that developers do not acknowledge OR models as 
 systems that belong to an organization, and that interventions focus only on the mathematical code.
 - [Vidoni, Cunico & Vecchietti (2020)](https://doi.org/10.1080/01605682.2020.1718557): problem structuring methods
 address only the understanding of the problem, ignoring the rest of the lifecycle.
@@ -107,8 +107,7 @@ on. That is the reason the practices below matter now, not a reason to postpone 
 ## What is SEFOP?
 
 What would software engineering look like if we adapted it deliberately around the needs of applied operations research? The answer is
-**SEFOP**, a framework specifically designed for this task. It is built to help OR teams move from _"we built a model that works today"_ to
-_"we built a system that can be deployed, maintained, and evolved efficiently over time"_.
+**SEFOP**, a framework specifically designed for this task.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/sefop/.github/main/assets/sefop-framework.png"
