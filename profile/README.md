@@ -129,12 +129,12 @@ produce:
 SEFOP is developed as an open collection of **training material, reference implementations, and tools**. Start from your situation
 rather than from the framework:
 
-| If you… | Start here                                                                                                                                                                                                                                       |
-|---|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **write the models** | [sefop-training-hub](https://github.com/sefop/sefop-training-hub) — learn and practice software engineering in the context of decision-support software                                                                                          |
-| **lead the team that writes them** | [sefop-training-hub/lead](https://github.com/sefop/sefop-training-hub/tree/main/lead) — how to staff and lead a team building decision-support software                                                                                          |
-| **are starting a new project** | [sefop-python-starter](https://github.com/sefop/sefop-python-starter) · [`sefop-python-advanced`](https://github.com/sefop/sefop-python-advanced) · [`sefop-java-advanced`](https://github.com/sefop/sefop-java-advanced) *(under construction)* |
-| **use AI coding agents on this work** | [sefop-agentic](https://github.com/sefop/sefop-agentic) — guides and tools for agentic development                                                                                                                                               |
+| If you… | Start here                                                                                                                                                                                                                                   |
+|---|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **write the models** | [sefop-training-hub](https://github.com/sefop/sefop-training-hub) — a practical book on software engineering for decision-support software: design, testing, deployment, and working with legacy code |
+| **lead the team that writes them** | [sefop-training-hub](https://github.com/sefop/sefop-training-hub), Sections 02 and 08 — whether you need a team, where it sits, and how to staff and lead it |
+| **are starting a new project** | [sefop-python-starter](https://github.com/sefop/sefop-python-starter) · [sefop-python-advanced](https://github.com/sefop/sefop-python-advanced) · [sefop-java-advanced](https://github.com/sefop/sefop-java-advanced) *(under construction)* |
+| **use AI coding agents on this work** | [sefop-training-hub](https://github.com/sefop/sefop-training-hub), Section 09 — practices for AI-assisted development · [sefop-agentic](https://github.com/sefop/sefop-agentic) — tools *(under construction)* |
 
 ---
 
